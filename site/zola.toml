@@ -1,0 +1,62 @@
+# The URL the site will be built for
+base_url = "https://mefhigoseth.github.io"
+
+title = "Victor Villarreal"
+author = "Victor Villarreal"
+description = "Portfolio de Victor Villarreal"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "vonge"
+
+taxonomies = [
+    { name = "tags", feed = true},
+]
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+twitter_handle = "MefhigosetH"
+
+navigation = [
+    { url = "$BASE_URL", title = "Inicio" },
+    { url = "$BASE_URL/projects", title = "Proyectos" },
+]
+
+social_icons = [
+    { url = "https://github.com/mefhigoseth", icon = "GitHub" },
+    { url = "https://twitter.com/mefhigoseth", icon = "Twitter" },
+    { url = "$BASE_URL/atom.xml", icon = "RSS" },
+]
+
+[[extra.content_blocks]]
+block = "hero"
+title = "Soy <Victor Villarreal>"
+description_html = "DevSecOps, SRE & IA developer.<br />Electronic and Telecommunications Technician.<br />Ethical Hacker, CtF Player & Reverse Engineer."
+image = "/images/profile.jpg"
+image_alt = "Foto de perfil de Victor Villarreal"
+cta_button_link = "#contact"
+cta_button = "Hablemos"
+works_button_link = "#projects"
+works_button = "Ver mi trabajo"
+
+[[extra.content_blocks]]
+block = "projects-section"
+title = "Últimos proyectos"
+description_html = """
+    <p>Mis últimos proyectos</p>"""
+link_url = "/projects"
+show_projects = true
+
+[extra.footer]
+menu = [
+    { url = "$BASE_URL", title = "Inicio" },
+    { url = "$BASE_URL/projects/", title = "Proyectos" },
+]
