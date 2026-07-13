@@ -51,7 +51,7 @@ works_button = "Ver mi trabajo"
 block = "projects-section"
 title = "Últimos proyectos"
 description_html = """
-    <p>Mis últimos proyectos</p>"""
+    <p>Una selección de mis desarrollos recientes, soluciones de software e integraciones técnicas diseñadas para resolver problemas reales con código eficiente.</p>"""
 link_url = "/projects"
 show_projects = true
 
