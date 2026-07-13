@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://mefhigoseth.github.io"
 
-title = "Victor Villarreal"
+title = "[^MefhigosetH^]"
 author = "Victor Villarreal"
 description = "Portfolio de Victor Villarreal"
 
@@ -23,6 +23,7 @@ taxonomies = [
 theme = "catppuccin-mocha"
 
 [extra]
+logo_image = ""
 twitter_handle = "MefhigosetH"
 
 navigation = [
@@ -33,17 +34,18 @@ navigation = [
 social_icons = [
     { url = "https://github.com/mefhigoseth", icon = "GitHub" },
     { url = "https://twitter.com/mefhigoseth", icon = "Twitter" },
+    { url = "https://www.youtube.com/@VictorVillarreal", icon = "Youtube" },
     { url = "$BASE_URL/atom.xml", icon = "RSS" },
 ]
 
 [[extra.content_blocks]]
 block = "hero"
-title = "Soy <Victor Villarreal>"
+title = "Hola, soy <Victor Villarreal>"
 description_html = "DevSecOps, SRE & IA developer.<br />Electronic and Telecommunications Technician.<br />Ethical Hacker, CtF Player & Reverse Engineer."
 image = "/images/profile.jpg"
 image_alt = "Foto de perfil de Victor Villarreal"
-cta_button_link = "#contact"
-cta_button = "Hablemos"
+cta_button_link = "https://www.linkedin.com/in/vvillarreal1983/"
+cta_button = "Linkedin"
 works_button_link = "#projects"
 works_button = "Ver mi trabajo"
 
