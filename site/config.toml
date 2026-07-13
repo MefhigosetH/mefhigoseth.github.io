@@ -1,0 +1,64 @@
+# The URL the site will be built for
+base_url = "https://mefhigoseth.github.io"
+
+title = "[^MefhigosetH^]"
+author = "Victor Villarreal"
+description = "Portfolio de Victor Villarreal"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "vonge"
+
+taxonomies = [
+    { name = "tags", feed = true},
+]
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+logo_image = ""
+twitter_handle = "MefhigosetH"
+
+navigation = [
+    { url = "$BASE_URL", title = "Inicio" },
+    { url = "$BASE_URL/projects", title = "Proyectos" },
+]
+
+social_icons = [
+    { url = "https://github.com/mefhigoseth", icon = "GitHub" },
+    { url = "https://twitter.com/mefhigoseth", icon = "Twitter" },
+    { url = "https://www.youtube.com/@VictorVillarreal", icon = "Youtube" },
+    { url = "$BASE_URL/atom.xml", icon = "RSS" },
+]
+
+[[extra.content_blocks]]
+block = "hero"
+title = "Hola, soy <Victor Villarreal>"
+description_html = "DevSecOps, SRE & IA developer.<br />Electronic and Telecommunications Technician.<br />Ethical Hacker, CtF Player & Reverse Engineer."
+image = "/images/profile.jpg"
+image_alt = "Foto de perfil de Victor Villarreal"
+cta_button_link = "https://www.linkedin.com/in/vvillarreal1983/"
+cta_button = "Linkedin"
+works_button_link = "#projects"
+works_button = "Ver mi trabajo"
+
+[[extra.content_blocks]]
+block = "projects-section"
+title = "Últimos proyectos"
+description_html = """
+    <p>Una selección de mis desarrollos recientes, soluciones de software e integraciones técnicas diseñadas para resolver problemas reales con código eficiente.</p>"""
+link_url = "/projects"
+show_projects = true
+
+[extra.footer]
+menu = [
+    { url = "$BASE_URL", title = "Inicio" },
+    { url = "$BASE_URL/projects/", title = "Proyectos" },
+]
