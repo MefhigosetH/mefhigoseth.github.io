@@ -30,11 +30,11 @@ menu = [
     { url = "$BASE_URL/projects", name = "Proyectos", trailing_slash = true },
 ]
 
-social_icons = [
-    { url = "https://github.com/mefhigoseth", icon = "GitHub" },
-    { url = "https://twitter.com/mefhigoseth", icon = "Twitter" },
-    { url = "https://www.youtube.com/@VictorVillarreal", icon = "Youtube" },
-    { url = "$BASE_URL/atom.xml", icon = "RSS" },
+socials = [
+    { url = "https://github.com/mefhigoseth", name = "GitHub", icon = "github" },
+    { url = "https://www.linkedin.com/in/vvillarreal1983/", name = "LinkedIn", icon = "linkedin" },
+    { url = "https://www.youtube.com/@VictorVillarreal", name = "Youtube", icon = "youtube" },
+    { url = "https://twitter.com/mefhigoseth", name = "Twitter", icon = "twitter" },
 ]
 
 [[extra.content_blocks]]
@@ -47,17 +47,3 @@ cta_button_link = "https://www.linkedin.com/in/vvillarreal1983/"
 cta_button = "Linkedin"
 works_button_link = "#projects"
 works_button = "Ver mi trabajo"
-
-[[extra.content_blocks]]
-block = "projects-section"
-title = "Últimos proyectos"
-description_html = """
-    <p>Una selección de mis desarrollos recientes, soluciones de software e integraciones técnicas diseñadas para resolver problemas reales con código eficiente.</p>"""
-link_url = "/projects"
-show_projects = true
-
-[extra.footer]
-menu = [
-    { url = "$BASE_URL", title = "Inicio" },
-    { url = "$BASE_URL/projects/", title = "Proyectos" },
-]
