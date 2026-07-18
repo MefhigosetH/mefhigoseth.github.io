@@ -11,24 +11,23 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-theme = "vonge"
+theme = "tabi"
 
 taxonomies = [
     { name = "tags", feed = true},
 ]
 
-[markdown]
-
 [markdown.highlighting]
-theme = "catppuccin-mocha"
+theme = "catppuccin-frappe"
+style = "class"
 
 [extra]
 logo_image = ""
 twitter_handle = "MefhigosetH"
 
-navigation = [
-    { url = "$BASE_URL", title = "Inicio" },
-    { url = "$BASE_URL/projects", title = "Proyectos" },
+menu = [
+    { url = "/", name = "Inicio", trailing_slash = false },
+    { url = "projects", name = "Proyectos", trailing_slash = true },
 ]
 
 social_icons = [
