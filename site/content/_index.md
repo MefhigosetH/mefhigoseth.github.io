@@ -1,6 +1,6 @@
 +++
 title = "Publicaciones recientes"
-paginate_by = 5  # Show 5 posts per page.
+paginate_by = 0  # Show 5 posts per page.
 
 [extra]
 header = {title = "Hello world!", img = "images/profile.jpg", img_alt = "Victor Villarreal" }
