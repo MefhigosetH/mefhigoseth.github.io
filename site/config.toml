@@ -26,8 +26,9 @@ logo_image = ""
 twitter_handle = "MefhigosetH"
 
 menu = [
-    { url = "$BASE_URL", name = "Inicio", trailing_slash = true },
-    { url = "$BASE_URL/projects", name = "Proyectos", trailing_slash = true },
+    { url = "/", name = "Inicio", trailing_slash = true },
+    { url = "projects", name = "Proyectos", trailing_slash = true },
+    { url = "blog", name = "Blog", trailing_slash = true },
 ]
 
 socials = [

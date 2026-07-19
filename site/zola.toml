@@ -28,6 +28,7 @@ twitter_handle = "MefhigosetH"
 menu = [
     { url = "/", name = "Inicio", trailing_slash = false },
     { url = "projects", name = "Proyectos", trailing_slash = true },
+    { url = "blog", name = "Blog", trailing_slash = true },
 ]
 
 socials = [
