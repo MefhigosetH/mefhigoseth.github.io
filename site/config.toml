@@ -3,7 +3,7 @@ base_url = "https://mefhigoseth.github.io"
 
 title = "[^MefhigosetH^]"
 author = "Victor Villarreal"
-description = "Portfolio de Victor Villarreal"
+description = "Sitio web personal y portafolio de Victor Villarreal"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
