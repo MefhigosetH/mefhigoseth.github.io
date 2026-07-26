@@ -24,7 +24,7 @@ style = "class"
 [extra]
 logo_image = ""
 twitter_handle = "MefhigosetH"
-social_card_card = "social-preview.png"
+social_media_card = "social-preview.png"
 
 menu = [
     { url = "/", name = "Inicio", trailing_slash = false },
