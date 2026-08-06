@@ -2,7 +2,7 @@
 title = "Recent posts"
 
 [extra]
-header = {title = "👋 Hello world!", img = "images/profile.jpg", img_alt = "Victor Villarreal" }
+header = {title = "👋 Hello world!", img = "images/profile.png", img_alt = "Victor Villarreal" }
 section_path = "blog/_index.md"
 max_posts = 3
 projects_path = "projects/_index.md"
