@@ -27,7 +27,7 @@ twitter_handle = "MefhigosetH"
 social_media_card = "social-preview.png"
 
 menu = [
-    { url = "/", name = "Inicio", trailing_slash = false },
+    { url = "pages/talks", name = "Talks", trailing_slash = true },
     { url = "projects", name = "Proyectos", trailing_slash = true },
     { url = "blog", name = "Blog", trailing_slash = true },
 ]
