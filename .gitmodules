@@ -1,3 +1,4 @@
 [submodule "site/themes/tabi"]
 	path = site/themes/tabi
 	url = https://github.com/welpo/tabi.git
+    branch = refs/tags/v4.2.0
