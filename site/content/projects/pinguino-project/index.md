@@ -1,7 +1,7 @@
 +++
 title = "Pinguino Project"
 description = "Physical computing for everyone"
-weight = 1
+weight = 3
 
 [taxonomies]
 tags = ["open-source"]
