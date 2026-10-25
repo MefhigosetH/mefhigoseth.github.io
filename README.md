@@ -26,7 +26,7 @@ docker compose up
 3. Abre en el navegador:
 
 ```text
-http://localhost:1111
+http://0.0.0.0:1111
 ```
 
 ## Estructura del proyecto

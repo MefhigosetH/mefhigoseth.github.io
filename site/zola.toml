@@ -30,6 +30,7 @@ menu = [
     { url = "pages/talks", name = "Talks", trailing_slash = true },
     { url = "projects", name = "Proyectos", trailing_slash = true },
     { url = "blog", name = "Blog", trailing_slash = true },
+    { url = "pages/contact", name = "Contacto", trailing_slash = true }
 ]
 
 socials = [

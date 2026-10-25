@@ -10,4 +10,4 @@ max_projects = 3
 show_projects_first = false
 +++
 
-I'm **Victor Villarreal**: DevSecOps, SRE & IA developer. Electronic and Telecommunications Technician. Ethical Hacker, CtF Player & Reverse Engineer.
+I'm **Victor Villarreal**: DevSecOps, SRE & IA developer. Electronic and Telecommunications Technician. Gray-Hat Hacker, CtF Player & Reverse Engineer.
